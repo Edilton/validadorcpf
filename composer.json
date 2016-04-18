@@ -1,6 +1,6 @@
 {
-    "name": "prodap/validadorcpf",
-    "description": "Validador de cpf",
+    "name": "edilton/validarcpf",
+    "description": "Service provider para validar cpf no laravel 5",
     "license": "MIT",
     "authors": [
         {
@@ -8,5 +8,6 @@
             "email": "ediltondanniken@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
