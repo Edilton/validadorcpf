@@ -1,5 +1,5 @@
 {
-    "name": "edilton/validarcpf",
+    "name": "edilton/validadorcpf",
     "description": "Service provider para validar cpf no laravel 5",
     "license": "MIT",
     "authors": [
