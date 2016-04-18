@@ -1,0 +1,12 @@
+{
+    "name": "prodap/validadorcpf",
+    "description": "Validador de cpf",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edilton",
+            "email": "ediltondanniken@gmail.com"
+        }
+    ],
+    "require": {}
+}
