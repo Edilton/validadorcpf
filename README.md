@@ -39,4 +39,4 @@ Laravel 5 Service Provider para validação de CPF
      'cpf' =>'required|max:11|cpf|unique:sua_tabela'
 
     ```
-    
+  * Função retirada de [http://www.laravel.com.br/criando-um-validator-customizado-cnpj-e-cpf-laravel/]
