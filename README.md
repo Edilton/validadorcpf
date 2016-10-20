@@ -1,5 +1,5 @@
 # validadorcpf
-Laravel 5 Service Provider para validação de CPF
+Laravel 5 Service Provider para validação de CPF e CNPJ
 
 #Install
   ```bash
@@ -27,7 +27,8 @@ Laravel 5 Service Provider para validação de CPF
     
       ```php
         return [  
-          'cpf'                  => 'O CPF é inválido',
+          'cpf'            => 'O CPF é inválido',
+          'cnpj'           => 'O CNPJ é inválido',
          ];
       ```
       
@@ -36,7 +37,8 @@ Laravel 5 Service Provider para validação de CPF
   
     ```php
   
-     'cpf' =>'required|max:11|cpf|unique:sua_tabela'
+     'cpf' =>'cpf',
+     'cnpj' => 'cnpj'
 
     ```
   * Função retirada de [http://www.laravel.com.br/criando-um-validator-customizado-cnpj-e-cpf-laravel/]
