@@ -41,4 +41,3 @@ Laravel 5 Service Provider para validação de CPF e CNPJ
      'cnpj' => 'cnpj'
 
     ```
-  * Função retirada de [http://www.laravel.com.br/criando-um-validator-customizado-cnpj-e-cpf-laravel/]
